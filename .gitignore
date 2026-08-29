@@ -1,0 +1,18 @@
+#terraform local state and binaries
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+
+#lambda build artifacts
+*.zip
+
+#python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+#OS files
+.DS_Store
+Thumbs.db
