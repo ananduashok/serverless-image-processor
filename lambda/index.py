@@ -1,7 +1,9 @@
 import json
-import boto3
 import urllib.parse
 import os
+import importlib
+
+boto3 = importlib.import_module('boto3')
 
 s3 = boto3.client('s3')
 dynamodb = boto3.resource('dynamodb')
